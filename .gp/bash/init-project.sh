@@ -57,6 +57,6 @@ if [[ ! -f tsconfig.json ]]; then
 fi
 
 # Hot reload
-msg="Setting up hot reload system"
-log_silent "$msg"
-if bash -ic "hot-reload setup"; then log_silent "SUCCESS: $msg"; else log_silent -e "ERROR: $msg"; fi
+#msg="Setting up hot reload system"
+#log_silent "$msg"
+#if bash -ic "hot-reload setup"; then log_silent "SUCCESS: $msg"; else log_silent -e "ERROR: $msg"; fi
