@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { AnswerContextType } from 'local-types'
 
 function App() {
+  let test:AnswerContextType;
+
     return (
         <div className="container">
             <div className="row justify-content-center">
